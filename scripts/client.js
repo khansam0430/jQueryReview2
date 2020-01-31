@@ -39,7 +39,8 @@ function displaySongs() {
     //loop through songs array
     for (let i = 0; i<songs.length; i++){
         //append each song to DOM
-        el.append(`<li>${ songs[i].title}: ${ songs[i].artist}, ${ songs[i].album} (${ songs[i].year})</li>`);
+        el.append(`<li>${ songs[i].title}: ${ songs[i].artist}, ${ songs[i].album} (${ songs[i].year})
+        <button class="digButton">Dig</button></li>`);
     }
     
     
